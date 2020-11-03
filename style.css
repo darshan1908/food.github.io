@@ -1,0 +1,114 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+.part1{
+ 	background-image:url("food.jpeg");
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style:none;
+	color:white;
+	font-family: Serif;
+	
+}
+.menu-bar ul li
+{
+	width:100px;
+	margin:20px;
+	padding:20px;
+	color:white;
+}
+
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.row{
+	color:white;
+	padding:40px;
+}
+.row h2{
+	font-size:30px;
+}
+.row h3{
+	font-size:20px;
+}
+.btn1 {
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+	text-align: center;
+	
+}
+.btn2{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+	text-align: center;
+	
+}
+.btn1:hover{
+	background: #8A2F05  ;
+}
+.btn2:hover{
+	background: #8A2F05  ;
+}
+.page2 {
+	
+	background-image:url("nonveg.jpeg");
+	
+}
+.page2 h4{
+	padding-left:25px;
+	font-size: 35px;
+	padding-top:250px;
+
+}
+.btn3{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+	text-align: center;
+	padding-left:25px;
+	
+}
+.container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right:25px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+.brands1{
+	flex-basis:30%;
+	min-width:250px;
+	margin-bottom:30px;
+	transition: transform 0.5s;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+	text-align:center;
+	padding-top:30px;
+	background-color:white;
+	height:190px;
+}
